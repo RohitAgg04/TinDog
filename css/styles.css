@@ -1,0 +1,160 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+p{
+  color: #8f8f8f;
+}
+.title{
+  text-align: left;
+}
+.container-fluid{
+  padding:3% 8% 7%;
+}
+.big-heading{
+ font-family: 'Montserrat-white', sans-serif;
+  line-height: 1.5;
+  font-size: 3.5rem;
+font-weight: 900;
+color: #ffffff;
+}
+/* section */
+
+.colored-section{
+  background-color: #ff4c68;
+}
+.white-section{
+  background-color: #ffffff;
+}
+.testimonials ,.press{
+  background-color: #ef8172;
+}
+
+
+
+/* navbar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+/* Download-button */
+
+.Download-button{
+  margin: 5% 3% 5% 0;
+}
+/* pictures */
+.iphone{
+
+  width: 40%;
+  transform: rotate(25deg);
+  position:absolute;
+  margin-left: 150px;
+}
+.iphone1{
+  position:relative;
+
+}
+/* features */
+
+.fa-solid{
+  size:40%;
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.fa-solid:hover{
+  color: #ff4c68;
+}
+.features{
+  padding: 5% 12%;
+position: relative;
+background-color: white;
+z-index: 1;
+}
+.feature-box{
+  padding: 0 5%;
+}
+.feature{
+  font-family: "Montserrat-bold";
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* testimonials */
+
+.carousel-item{
+  padding: 7% 13%;
+
+}
+.carousel-text{
+  font-size: 3.3rem;
+  color: #ffffff;
+  font-family: "Montserrat",sans-serif;
+  font-weight: bolder;
+}
+.testimonial-img{
+  border-radius: 100%;
+  margin: 30px;
+width: 12%;
+}
+.press{
+  padding: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 40px;
+}
+/* pricing */
+.pricing{
+  padding: 4% 8%;
+  text-align: center;
+
+}
+.pricing-col{
+  padding: 2% 3%;
+}
+.pricing-text{
+  font-size: 3.3rem;
+  color: black;
+  font-family: "Montserrat",sans-serif;
+  font-weight: bolder;
+}
+
+.pricing-breed{
+  font-family: "Montserrat-bold";
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+/* footer */
+.cta{
+padding: 5% 20%;
+}
+
+.footer{
+  margin-top: 50px;
+}
+.footer-logo{
+  margin: 10px;
+}
+
+@media (max-width:1028px) {
+.title{
+  text-align: center;
+}
+.iphone1 .iphone{
+  position: static;
+  transform:rotate(0);
+  margin-left: 0;
+}
+}
